@@ -1,0 +1,2 @@
+### Upgradabilitiy
+If you were going to use this, I recommend altering the `uint256 remainingVotes;` of `struct transaction` if you're going to be adding + removing `contractOwners`. Otherwise, it should be fine if the `contractOwners` is unchanged. 
